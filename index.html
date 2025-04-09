@@ -12,12 +12,40 @@
         <div id="head-container">
             <img id="meesho-logo" src="/Messho-Clone/assets/meeshoLogo.svg" alt="meesho logo">
             <div id="searchBar">
-                <img src="/Messho-Clone/assets/search_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" alt="lens">
-                <input font-size="16px" font-weight="book" type="text" placeholder="Try Saree, Kurti or Search by Product Code" color="greyBase" >
+                <!-- <img src="/Messho-Clone/assets/search_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" alt="lens"> -->
+                <svg id="lens" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_1770_1836)"><path d="M19.7695 18.6698L16.0096 14.9098C17.3296 13.3298 18.1296 11.2999 18.1296 9.07989C18.1296 4.05995 14.0697 0 9.05978 0C4.0599 0 0 4.05995 0 9.07989C0 14.0998 4.0599 18.1598 9.05978 18.1598C11.2897 18.1598 13.3297 17.3498 14.9096 16.0098L18.6695 19.7698C18.9695 20.0698 19.4695 20.0698 19.7695 19.7698C20.0795 19.4698 20.0795 18.9698 19.7695 18.6698ZM9.05978 16.5998C4.91988 16.5998 1.54996 13.2298 1.54996 9.07989C1.54996 4.92994 4.91988 1.55998 9.05978 1.55998C13.1997 1.55998 16.5696 4.92994 16.5696 9.07989C16.5696 13.2298 13.1997 16.5998 9.05978 16.5998Z" fill="#8B8BA3"></path></g><defs><clipPath id="clip0_1770_1836"><rect width="19.9995" height="19.9998" fill="white"></rect></clipPath></defs></svg>
+                <input id="inbar" font-size="1rem" font-weight="book" type="text" placeholder="         Try Saree, Kurti or Search by Product Code" color="greyBase" >
             </div>
-            <div>
-                <img src="/Messho-Clone/assets/phone_iphone_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png" alt="phone icon">
+            <div id="iphone">
+                <img id="iphone-logo" src="/Messho-Clone/assets/phone_iphone_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png" alt="phone icon">
                 <p class="vl">Download App</p>
+            </div>
+
+            <div class="vrLine"></div>
+
+            <div id="suplier">
+                <p>Become a Supplier</p>
+            </div>
+
+            <div class="vrLine"></div>
+
+
+            <div id="investor">
+                <p>Investor Relation</p>
+            </div>
+
+            <div class="vrLine"></div>
+
+
+            <div id="profile-cart">
+                <div id="profile">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="sc-iBYQkv bhQMdV hover" mr="8" iconSize="20"><g clip-path="url(#user_svg__a)"><path d="M15.316 13.016c1.512-1.058 2.516-2.797 2.516-4.784A5.835 5.835 0 0 0 12 2.4a5.835 5.835 0 0 0-5.832 5.832 5.79 5.79 0 0 0 2.517 4.784C4.343 14.291 1.2 17.996 1.2 22.37v.022c0 .896.843 1.609 1.825 1.609h17.95c.983 0 1.825-.713 1.825-1.61v-.02c0-4.375-3.143-8.08-7.484-9.354ZM7.853 8.232a4.148 4.148 0 0 1 8.294 0 4.148 4.148 0 0 1-8.294 0Zm13.122 14.083H3.025a.245.245 0 0 1-.14-.032c.054-4.45 4.126-8.057 9.115-8.057 4.99 0 9.05 3.596 9.115 8.057a.245.245 0 0 1-.14.032Z" fill="#333"></path></g><defs><clipPath id="user_svg__a"><path fill="#fff" transform="translate(1.2 2.4)" d="M0 0h21.6v21.6H0z"></path></clipPath></defs></svg>
+                    <p class="para">Profile</p>
+                </div>
+               <div id="cart">
+                    <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" mr="8" class="sc-iBYQkv cpIwLl hover" stroke="greyBase" iconSize="20"><path d="m4.987 5.469 1.848 7.2a1 1 0 0 0 .968.752h8.675a1 1 0 0 0 .962-.726l1.697-5.952a1 1 0 0 0-.962-1.274H4.987Zm0 0-.943-3.248a1 1 0 0 0-.96-.721H1" stroke="#666" stroke-width="1.5" stroke-linecap="round"></path><ellipse cx="9.421" cy="16.744" rx="1.243" ry="1.256" stroke="#666" stroke-width="1.5"></ellipse><ellipse cx="15.221" cy="16.744" rx="1.243" ry="1.256" stroke="#666" stroke-width="1.5"></ellipse></svg>
+                    <p class="para">Cart</p>
+               </div>
             </div>
         </div>
     </header>
@@ -43,7 +71,7 @@
             </div>
             
             <div id="poster-section">
-                <img class="poster1img" src="/Messho-Clone/assets/poster1.png" alt="poster1">                
+                <img id="posterimg" class="poster1img" src="/Messho-Clone/assets/poster1.png" alt="poster1">                
             </div>
 
             <div id="text-section">
@@ -54,12 +82,15 @@
 
             <div id="poster-section2">
                 <div id="grpPic">
-                    <div id="div1">
-                        <img id="topimg1" src="/Messho-Clone/assets/woman.webp" alt="error">
-                    </div>
+                    <a href="https://www.meesho.com/women-store/pl/3g5o">
+                        <div id="div1">
+                            <img id="topimg1" src="/Messho-Clone/assets/woman.webp" alt="error">
+                        </div>
+                    </a>
+
                     <div id="div2">
-                        <img class="topimg2" src="/Messho-Clone/assets/men.webp" alt="error">
-                        <img class="topimg2" src="/Messho-Clone/assets/kids.webp" alt="error">
+                        <a href="https://www.meesho.com/men-store/pl/3g5p"><img class="topimg2" src="/Messho-Clone/assets/men.webp" alt="error"></a>
+                        <a href="https://www.meesho.com/kids-store/pl/3g5q"><img class="topimg2" src="/Messho-Clone/assets/kids.webp" alt="error"></a>
                     </div>
                 </div>
             </div>
